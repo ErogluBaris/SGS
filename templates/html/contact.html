@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/054518f992.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/contact.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <title>İletişim</title>
+</head>
+<body>
+    <header>
+        <img src="{{url_for('static', filename='Logo.jpg')}}">
+        <nav>
+            <div class="navbar_links">
+                <a class ="btn" href="/">Hakkımızda</a>
+                <a class ="btn" href="urunler">Ürünler</a>
+                <a class ="btn" href="#">Hizmetler</a>
+                <a class ="btn" href="/iletisim">İletişim</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row mb-sm-5">
+        <div class="col-sm-6 align-self-center">
+            <div class="card" id="address">
+                <div class="card-body">
+                    <h3><i class="fas fa-map-marker-alt "></i>  Adres</h3>
+                    <p>MUSTAFA KEMALPASA Mahallesi
+                    Mimar Sinan Caddesi No:50/B, 34320
+                    Avcılar/İstanbul</p>
+                    <h3><i class="fas fa-phone-alt"></i>  Telefon</h3>
+                    <p>+90 534 010 35 55</p>
+                    <h3><i class="fas fa-envelope fa-layers-left"></i>  E-posta</h3>
+                    <p>muhasebe@sgskumas.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10128.362828866773!2d28.70770221659362!3d40.99942704810868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc006fead0e486fb!2sSGS%20KUMASCILIK%20TEKSTIL%20SAN.TIC.LTD.STI.!5e0!3m2!1str!2str!4v1595257804380!5m2!1str!2str" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4" id="links">
+                <a href="/">Hakkımızda</a>
+                <a href="#">Hizmetler</a>
+                <a href="/urunler">Ürünler</a>
+                <a href="/iletisim">İletişim</a>
+            </div>
+            <div class="col-sm-4">
+                <div class="smalltext">
+                <p>Morbi dui ex, facilisis eu quam eu, tempus ultricies ex. Sed laoreet aliquam volutpat. Curabitur convallis hendrerit ipsum sit amet efficitur.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p>Sosyal Medya</p>
+                <div id="media">
+                    <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#category {
+    margin-left: 3vw;
+}
+
+#category button {
+    min-width: 16vw;
+    font-family: 'Crimson Text', serif;
+    font-size: 3.2vh;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+#address {
+    margin-left: 10vw;
+}
+
+#address h3{
+    font-size: 4vh;
+    font-family: 'Lato', sans-serif;
+}
+
+#address p {
+    font-size: 2vh;
+    color: #868e96;
+    font-family: 'Lato', sans-serif;
+}
